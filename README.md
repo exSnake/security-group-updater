@@ -1,4 +1,4 @@
-# Cloud Security Group Updater
+# Cloudflare and Forge to AWS Security Group Updater
 The Cloud Security Group Updater is a Python script designed to help automate the process of updating security group rules on aws. It utilizes the AWS Lambda service and leverages the boto3 library to interact with AWS resources. This script is particularly useful for maintaining the security of your cloud resources by allowing you to dynamically adjust the IP ranges that are allowed to access your instances.
 ## Features
 
