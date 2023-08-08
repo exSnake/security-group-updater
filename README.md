@@ -17,9 +17,9 @@ The Cloud Security Group Updater is a Python script designed to help automate th
 
 1.  Environment Setup: Configure these environment variables:
 
--   `CLOUDFLARE_ADDITIONAL_IPS`: Additional IPv4 CIDR blocks for CloudFlare IP ranges.
+-   `CLOUDFLARE_ADDITIONAL_IPS`: Comma-separated additional IPv4 CIDR blocks for CloudFlare IP ranges.
 
--   `FORGE_ADDITIONAL_IPS`: Additional IPv4 CIDR blocks for Forge IP ranges.
+-   `FORGE_ADDITIONAL_IPS`: Comma-separated additional IPv4 CIDR blocks for Forge IP ranges.
 
 -   `CLOUDFLARE_SECURITY_GROUP_IDS_LIST` or `CLOUDFLARE_SECURITY_GROUP_ID`: Comma-separated CloudFlare Security Group IDs or a single ID.
 
@@ -27,7 +27,7 @@ The Cloud Security Group Updater is a Python script designed to help automate th
 
 -   `CLOUDFLARE_PORTS_LIST` (optional): Comma-separated TCP ports for CloudFlare. Defaults to ports 80 and 443.
 
--   `FORGE_PORTS_LIST` (optional): Comma-separated TCP ports for Forge. Defaults to ports 22, 80, and 443.
+-   `FORGE_PORTS_LIST` (optional): Comma-separated TCP ports for Forge. Defaults to ports 22.
 
 -   `UPDATE_IPV6` (optional): Set to `0` to disable updating IPv6 ranges; defaults to `1`.
 
