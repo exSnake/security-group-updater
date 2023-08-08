@@ -77,6 +77,6 @@ This script is provided as-is and is intended to serve as a starting point for a
 
 ## Author
 
-This script was developed by [@exSnake](https://www.github.com/exSnake). Feel free to contact me with any questions or feedback.
+This script was developed by [@exSnake](https://www.github.com/exSnake) based on this script https://github.com/johnmccuk/cloudflare-ip-security-group-update.
 
 
