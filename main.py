@@ -12,7 +12,7 @@ def get_cloudflare_ip_list():
     
     response = temp['result']
     try:
-        additional_ips = os.environ[partner.upper()  + '_ADDITIONAL_IPS']
+        additional_ips = os.environ['CLOUDFLARE_ADDITIONAL_IPS']
         response['ipv4_cidrs'].extend(additional_ips.split(','))
     except KeyError:
         pass
@@ -35,7 +35,7 @@ def get_forge_ip_list():
         'ipv6_cidrs': []
     }
     try:
-        additional_ips = os.environ[partner.upper()  + '_ADDITIONAL_IPS']
+        additional_ips = os.environ['FORGE_ADDITIONAL_IPS']
         response['ipv4_cidrs'].extend(additional_ips.split(','))
     except KeyError:
         pass
